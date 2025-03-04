@@ -8,7 +8,7 @@ import { FeaturesSectionDemo } from "./components/Features";
 import ParallaxScrolling from "./components/Parallax";
 import ServicesGrid from "./components/Services";
 import { CardDemo } from "./components/CardDemo";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 import Clients from "./components/Clients";
 import CountdownTimer from "./components/timer";
 import OurStory from "./components/story";
@@ -28,7 +28,7 @@ export default function Home() {
   <ServicesGrid/>
   <CardDemo/>
  
-  <Portfolio/>
+  {/* <Portfolio/> */}
   <Clients/>
   <ParallaxScrolling />
   <Clients/>
