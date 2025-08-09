@@ -12,6 +12,10 @@ import { CardDemo } from "./components/CardDemo";
 import Clients from "./components/Clients";
 import CountdownTimer from "./components/timer";
 import OurStory from "./components/story";
+import Footer from "./components/Footer";
+import FeaturesSection from "./components/FeatureSection";
+import ProductEcosystem from "./components/Products";
+import ProductCarousel from "./components/ProductCarousel";
 
 
 
@@ -23,15 +27,18 @@ export default function Home() {
   <Navbar/>
   <Hero/>
   <About/>
-  <Partners/>
+  {/* <Partners/> */}
   <FeaturesSectionDemo />
   <ServicesGrid/>
   <CardDemo/>
+  <ProductCarousel/>
  
   {/* <Portfolio/> */}
   <Clients/>
-  <ParallaxScrolling />
-  <Clients/>
+  {/* <ParallaxScrolling /> */}
+  <ProductEcosystem/>
+  <FeaturesSection/>
+  <Footer/>
 
   </div>
   </>
